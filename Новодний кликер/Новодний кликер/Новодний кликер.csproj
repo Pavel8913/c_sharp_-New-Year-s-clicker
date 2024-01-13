@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{884E8F60-47EA-4B8D-9D94-6D2B829EC3C1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Новодний_кликер</RootNamespace>
+    <AssemblyName>Новодний кликер</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BestScoreDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BestScoreDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddForm.Designer.cs">
+      <DependentUpon>AddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FMenu.Designer.cs">
+      <DependentUpon>FMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FPause.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FPause.Designer.cs">
+      <DependentUpon>FPause.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FSeting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FSeting.Designer.cs">
+      <DependentUpon>FSeting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FShop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FShop.Designer.cs">
+      <DependentUpon>FShop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Scores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Scores.Designer.cs">
+      <DependentUpon>Scores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Forms\FStart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FStart.Designer.cs">
+      <DependentUpon>FStart.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\AddForm.resx">
+      <DependentUpon>AddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FMenu.resx">
+      <DependentUpon>FMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FPause.resx">
+      <DependentUpon>FPause.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FSeting.resx">
+      <DependentUpon>FSeting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FShop.resx">
+      <DependentUpon>FShop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Scores.resx">
+      <DependentUpon>Scores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Forms\FStart.resx">
+      <DependentUpon>FStart.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="BestScoreDataSet.xsc">
+      <DependentUpon>BestScoreDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BestScoreDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BestScoreDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BestScoreDataSet.xss">
+      <DependentUpon>BestScoreDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\новогодний фон.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Фото подарок нг.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Кнопка перезапуска.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Кнопка перезапуска1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-открыть-папку-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Новогодняя заставка.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Новогодний фон 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Стрелка влево.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BoneyM-JingleBells.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Пауза.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Выйти.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Выйти1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Black-Play-Button-PNG-Free-Download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Фон нг.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Монета.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Кнопка кликер.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Купить.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BestScore.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

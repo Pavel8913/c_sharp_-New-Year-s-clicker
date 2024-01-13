@@ -1,0 +1,18 @@
+C:\Users\User\Desktop\проекты программирование\Новодний кликер\Новодний кликер\bin\Debug\Новодний кликер.exe.config
+C:\Users\User\Desktop\проекты программирование\Новодний кликер\Новодний кликер\bin\Debug\Новодний кликер.exe
+C:\Users\User\Desktop\проекты программирование\Новодний кликер\Новодний кликер\bin\Debug\Новодний кликер.pdb
+C:\Users\User\Desktop\проекты программирование\Новодний кликер\Новодний кликер\obj\Debug\Новодний кликер.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\проекты программирование\Новодний кликер\Новодний кликер\obj\Debug\Новодний_кликер.Form1.resources
+C:\Users\User\Desktop\проекты программирование\Новодний кликер\Новодний кликер\obj\Debug\Новодний_кликер.Properties.Resources.resources
+C:\Users\User\Desktop\проекты программирование\Новодний кликер\Новодний кликер\obj\Debug\Новодний кликер.csproj.GenerateResource.cache
+C:\Users\User\Desktop\проекты программирование\Новодний кликер\Новодний кликер\obj\Debug\Новодний кликер.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\проекты программирование\Новодний кликер\Новодний кликер\obj\Debug\Новодний кликер.exe
+C:\Users\User\Desktop\проекты программирование\Новодний кликер\Новодний кликер\obj\Debug\Новодний кликер.pdb
+C:\Users\User\Desktop\проекты программирование\Новодний кликер\Новодний кликер\obj\Debug\Новодний_кликер.Resources.Forms.FStart.resources
+C:\Users\User\Desktop\проекты программирование\Новодний кликер\Новодний кликер\obj\Debug\Новодний_кликер.Forms.FMenu.resources
+C:\Users\User\Desktop\проекты программирование\Новодний кликер\Новодний кликер\obj\Debug\Новодний_кликер.Forms.FSeting.resources
+C:\Users\User\Desktop\проекты программирование\Новодний кликер\Новодний кликер\obj\Debug\Новодний_кликер.Forms.FPause.resources
+C:\Users\User\Desktop\проекты программирование\Новодний кликер\Новодний кликер\obj\Debug\Новодний_кликер.Forms.FShop.resources
+C:\Users\User\Desktop\проекты программирование\Новодний кликер\Новодний кликер\bin\Debug\BestScore.accdb
+C:\Users\User\Desktop\проекты программирование\Новодний кликер\Новодний кликер\obj\Debug\Новодний_кликер.Forms.Scores.resources
+C:\Users\User\Desktop\проекты программирование\Новодний кликер\Новодний кликер\obj\Debug\Новодний_кликер.Forms.AddForm.resources
